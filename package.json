@@ -1,6 +1,6 @@
 {
   "name": "parse-json-response",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Gather up a JSON response from a server, and call the cb",
   "main": "parse.js",
   "directories": {
