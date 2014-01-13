@@ -35,7 +35,7 @@ function handler(res, cb) {
       return cb(e, null, res)
     }
     if (res.statusCode > 299 || res.statusCode < 200) {
-      er = new Error(data.reason || json)
+      er = new Error(json)
       er.statusCode = res.statusCode
     }
     cb(er, data, res)
